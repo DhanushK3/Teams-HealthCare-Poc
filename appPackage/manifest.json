@@ -1,0 +1,40 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+    "version": "1.0.1",
+    "manifestVersion": "1.17",
+    "id": "61ce4677-02a7-4aa5-946e-910bc500c8c7",
+    "name": {
+      "short": "HealthCare",
+      "full": ""
+    },
+    "developer": {
+      "name": "SpringField",
+      "mpnId": "",
+      "websiteUrl": "https://springfield.com",
+      "privacyUrl": "https://springfield.com/privacy",
+      "termsOfUseUrl": "https://springfield.com/terms"
+    },
+    "description": {
+      "short": "CareHealth.ai is an AI-powered platform for efficient patient data management.",
+      "full": "CareHealth.ai is a comprehensive healthcare platform designed to revolutionize patient data management and sharing across healthcare providers."
+    },
+    "icons": {
+      "outline": "outline.png",
+      "color": "color.png"
+    },
+    "accentColor": "#FFFFFF",
+    "staticTabs": [
+      {
+        "entityId": "1ec2d726-be6a-43df-aba6-d5fcd9adc3fe",
+        "name": "CareHealth",
+        "contentUrl": "https://carehealth.ai",  
+        "websiteUrl": "https://carehealth.ai",   
+        "scopes": ["personal"],
+        "context": ["personalTab", "channelTab"] 
+      }
+    ],
+    "validDomains": [
+      "carehealth.ai"
+    ]
+  }
+  
